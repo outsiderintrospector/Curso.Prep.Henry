@@ -7,7 +7,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+display: block;
+text-align: center;
 }
 
 
@@ -15,24 +16,55 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 
+#ejercicioDos { 
+    display: none;
+}
+
 
 
 /* Ejercicio 3: */
 
 /* Acá va tu código */
 
-
+#ejercicioTres {
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
-
+#ejercicioCuatro {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
 
-
+#ejercicioCinco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/*justify content mueve todo el contenido de manera horizontal
+align items mueve todo de manera vertical , align self existe  de forma 
+individual mientras que justify self no */
 
 /* Ejercicio 6. */
+
+#ejercicioCinco {
+    flex-direction: row-reverse;
+}
+
+#ejercicioSiete{
+    display: flex;
+}
+#elementoUno{
+    align-self: center;
+}
